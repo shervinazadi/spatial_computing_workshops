@@ -29,3 +29,6 @@ python -m pip install -e .
 ```
 
 :thumbsup:
+
+## Credits
+Unless otherwise specified in each file, the repository is licensed under MIT.
