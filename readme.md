@@ -1,6 +1,6 @@
 # Spatial Computing Workshops
 
-This repository contains python notebooks for Spatial Computing Design Studio Workshops. You can see the course previous projects here:
+This repository contains python notebooks for Spatial Computing Design Studio Workshops. These notebooks are derivations from sample workflows of [topoGenesis](https://topogenesis.readthedocs.io), that have been simplified and altered for educational purposes. You can see the course previous projects here:
 
 * [Spatial Computing Design Studio 2019](https://github.com/Pirouz-Nourian/Spatial_Computing_Design_Studio19)
 * [Spatial Computing Design Studio 2018](https://github.com/Pirouz-Nourian/Spatial_Computing_Design_Studio18)
