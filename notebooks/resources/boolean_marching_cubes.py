@@ -1,3 +1,9 @@
+__author__ = "Shervin Azadi"
+__license__ = "MIT"
+__version__ = "1.0"
+__url__ = "https://github.com/shervinazadi/spatial_computing_workshops"
+__summary__ = "Boolean Marching Cubes developed for Spatial COmputing Design Studio Workshops"
+
 import topogenesis as tg
 import numpy as np
 import pyvista as pv
