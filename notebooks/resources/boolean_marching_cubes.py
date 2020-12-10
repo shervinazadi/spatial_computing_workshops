@@ -71,7 +71,7 @@ def create_symmetry_stencils(sym_str):
     return stencils
 
 
-def bi_cube_profiles():
+def bi_cube_lattices():
     # create all possible configurations
     l_bis = []
     for i in range(2**8):
@@ -82,7 +82,7 @@ def bi_cube_profiles():
     return l_bis
 
 
-def unique_corner_arrangements(stencils, l_bis):
+def extract_corner_profiles(stencils, l_bis):
     #######################
 
     # generate corner profiles
@@ -97,20 +97,12 @@ def unique_corner_arrangements(stencils, l_bis):
 
         corner_profiles.append(result)
 
-    # stack corner_profiles vertically
-    res_stacked = np.vstack(corner_profiles)
-
-    # find the uniqe arangements of corners
-    uniq_corner_arang = np.unique(res_stacked, axis=0)
-    # print(uniq_corner_arang)
-    # print(len(uniq_corner_arang))
-
-    return (uniq_corner_arang, corner_profiles)
+    return corner_profiles
 
     ######################
 
 
-def profiles_to_lattices(uniq_corner_arang, corner_profiles, stencils):
+def profiles_to_lattices(uniq_corner_arang, stencils):
     stencil_ind = []
     for s in stencils:
         filled_ind = np.array(np.where(np.array(s) == 1)).T
