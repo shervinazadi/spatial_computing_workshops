@@ -227,7 +227,7 @@ def save_design_templates(corner_loc_lattices, corner_neigh_lattices, templates_
         to_csv(extra_neighs, e_neigh_path)
 
 
-def construct_tile_meshes(subtile_meshes, corner_profiles, uniq_corner_arang, corner_loc_lattices):
+def construct_tile_meshes_old(subtile_meshes, corner_profiles, uniq_corner_arang, corner_loc_lattices):
     tile_corner_inds = []
     for prof in corner_profiles:
         # find each corner in the list of unique corner arrangements
