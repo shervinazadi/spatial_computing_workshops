@@ -1,24 +1,24 @@
-name: sc_workshops
+name: scds
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - jupyter=1.0.0
-  - mkdocs=1.1.2
-  - mkdocs-material=6.1.2
-  - networkx=2.5
-  - numpy=1.19.4
-  - scipy=1.5.3
-  - pandas=1.1.2
-  - pip=20.2.4
+  - jupyter
+  - mkdocs
+  - mkdocs-material
+  - networkx
+  - numpy
+  - scipy
+  - pandas
+  - pip
   - python=3.8.5
-  - rtree=0.9.4
-  - trimesh=3.8.12
+  - rtree
+  - trimesh
   - pip:
-      - ipyvtk-simple==0.1.3
-      - itkwidgets==0.32.0
-      - lbt-ladybug==0.25.33
-      - mkdocs-material-extensions==1.0.1
-      - mknotebooks==0.6.2
-      - pyvista==0.27.0
-prefix: /Users/shervinazadi/opt/miniconda3/envs/sc_workshops
+      - ipyvtk-simple
+      - itkwidgets
+      - lbt-ladybug
+      - mkdocs-material-extensions
+      - mknotebooks
+      - pyvista
+prefix: /Users/shervinazadi/opt/miniconda3/envs/scds
