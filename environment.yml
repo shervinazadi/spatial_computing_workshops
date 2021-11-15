@@ -9,6 +9,9 @@ dependencies:
   - networkx
   - numpy
   - scipy
+  - compas
+  - compas_cgal
+  - compas_view2
   - pandas
   - pip
   - python=3.8.5
