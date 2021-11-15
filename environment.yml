@@ -21,4 +21,5 @@ dependencies:
       - mkdocs-material-extensions
       - mknotebooks
       - pyvista
+      - ipyvtklink
 prefix: /Users/shervinazadi/opt/miniconda3/envs/scds
