@@ -12,7 +12,6 @@ dependencies:
   - compas
   - compas_cgal
   - compas_view2
-  - compas_libigl
   - pandas
   - pip
   - python=3.8.5
