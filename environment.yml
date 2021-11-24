@@ -23,6 +23,6 @@ dependencies:
       - lbt-ladybug
       - mkdocs-material-extensions
       - mknotebooks
-      - pyvista
+      - pyvista==0.28.1
       - ipyvtklink
 prefix: /Users/shervinazadi/opt/miniconda3/envs/scds
