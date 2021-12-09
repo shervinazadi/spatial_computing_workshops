@@ -167,7 +167,7 @@ def to_csv(lattice, filepath: str):
         filepath: path to the csv file
     """
     # volume to panda dataframe
-    vol_df = lattice.to_panadas()
+    vol_df = lattice.to_pandas()
 
     # specifying metadata and transposing it
     metadata = pd.DataFrame({
